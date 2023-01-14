@@ -14,9 +14,19 @@
     <body>
         <h1>Age Calculator</h1>
         <form method="post" action="age">
-            Enter your age: <input type="text" name="user-age" min="0">
-            <button type="submit">Age next birthday</button>
-            <a href="">Arithmetic Calculator</a>
+            Enter your age: 
+            <input type="text" name="userage" value="${userage}"min="0"><br>
+            <button type="submit">Age next birthday</button><br>
         </form>
+            <p>${message}</p>
+            <a href="">Arithmetic Calculator</a>
+            
+            
+            <style>
+                p {
+                    height: fit-content;
+                    margin: 0px;
+                }
+            </style>
     </body>
 </html>
