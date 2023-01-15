@@ -63,9 +63,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
                     ans = num1 / num2;
                     break;
             }
-            
             request.setAttribute("message", ans);
-            
         }
         catch (NumberFormatException e) {
             request.setAttribute("message", "invalid");
