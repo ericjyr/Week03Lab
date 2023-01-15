@@ -16,11 +16,10 @@
         <form method="post" action="age">
             Enter your age: 
             <input type="text" name="userage" value="${userage}"min="0"><br>
-            <button type="submit">Age next birthday</button><br>
+            <input type="submit" value="Age next birthday"><br>
         </form>
             <p>${message}</p>
-            <a href="">Arithmetic Calculator</a>
-            
+            <a href="arithmetic">Arithmetic Calculator</a>
             
             <style>
                 p {
